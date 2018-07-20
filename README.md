@@ -84,7 +84,7 @@ Screen Shot
 Change Log
 =======================
 
-Version 2 - Additional enumeration scripts for Kali Linux, added shell spawner for msfvenom-created shells
-Version 1.8 - Official release.
+* Version 2 - Additional enumeration scripts for Kali Linux, added shell spawner for msfvenom-created shells
+* Version 1.8 - Official release.
 
 
