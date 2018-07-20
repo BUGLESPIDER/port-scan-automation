@@ -1,4 +1,4 @@
-LazyMap - Auto NMAP Scanning Script
+LazyMap - Auto NMAP Scanning Script - Enumeration Fork
 ============================================
 
 **WARNING**: This fork has significant divergence from the original LazyMap!
@@ -27,8 +27,7 @@ Known bugs:
 Be sure to read what this thing does and use at your own risk!
 
 
-Original notes:
-
+Original LazyMap creator notes (not from this fork, message BUGLESPIDER for issues):
 
 Automate NMAP scans and custom Nessus polices.
 
