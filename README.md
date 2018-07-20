@@ -15,7 +15,7 @@ This fork is modified for running additional enumeration:
 
 It also calls these two scripts:
 * **scanner_nse.sh** spawns off a bunch of NSE scanner scripts that may step all over each other, YMMV.
-* **shell_spawner.sh** uses msfvenom to spit out a number of common shells to your interface's IP.
+* **shell_spawner.sh** uses msfvenom to spit out a number of reverse shells pointed at your interface's IP.
 
 Just the original initial nmap scans were kept, I fumbled through making this quickly, so use at your own risk!
 
