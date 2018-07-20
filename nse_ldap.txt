@@ -1,0 +1,2 @@
+ldap-novell-getpass
+ldap-rootdse

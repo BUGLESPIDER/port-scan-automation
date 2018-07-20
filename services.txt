@@ -1,0 +1,14 @@
+ftp
+https
+ldap
+mssql
+mysql
+rdp
+smb
+smtp
+ssh
+telnet
+tftp
+vnc
+web
+x11

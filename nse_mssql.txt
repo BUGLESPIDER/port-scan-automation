@@ -1,0 +1,4 @@
+http-sql-injection
+ms-sql-dump-hashes
+ms-sql-empty-password
+ms-sql-xp-cmdshell
