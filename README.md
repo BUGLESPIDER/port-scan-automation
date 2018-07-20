@@ -6,12 +6,12 @@ LazyMap - Auto NMAP Scanning Script
 **Please** read the lazymap.sh preamble and script very carefully!
 
 This fork is modified for running additional enumeration:
-  nmap
-  nmap NSEs
-  nikto
-  enum4linux
-  onesixtyone
-  snmp walk
+nmap
+nmap NSEs
+nikto
+enum4linux
+onesixtyone
+snmp walk
 
 It also calls these two scripts:
 **scanner_nse.sh** spawns off a bunch of NSE scanner scripts that may step all over each other, YMMV.
@@ -20,9 +20,9 @@ It also calls these two scripts:
 Just the original initial nmap scans were kept, I fumbled through making this quickly, so use at your own risk!
 
 Known bugs:
- -I broke the file input feature and haven't gotten around to fixing it. Currently it only scans a subnet or individual IP addresses. For my use case, I just pop open a bunch of terminator windows and run multiple instances.
- -No error handling, if a scan finds nothing it just keeps going.
- -Sloppy nikto handling, just scans from an nmap output pipe of these ports: 80,8000,8080,8081,8888,443,4443
+I broke the file input feature and haven't gotten around to fixing it. Currently it only scans a subnet or individual IP addresses. For my use case, I just pop open a bunch of terminator windows and run multiple instances.
+No error handling, if a scan finds nothing it just keeps going.
+Sloppy nikto handling, just scans from an nmap output pipe of these ports: 80,8000,8080,8081,8888,443,4443
 
 Per the limitations and license, be sure to read what this thing does and use at your own risk!
 
