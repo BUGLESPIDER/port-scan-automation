@@ -1,9 +1,11 @@
 LazyMap - Auto NMAP Scanning Script
 ============================================
 
-**WARNING**: This fork has significant divergence from original LazyMap, please read the lazymap.sh preamble and script very carefully!
+**WARNING**: This fork has significant divergence from the original LazyMap!
 
-This fork is a heavily modified version for running enumeration:
+**Please** read the lazymap.sh preamble and script very carefully!
+
+This fork is modified for running additional enumeration:
   nmap
   nmap NSEs
   nikto
@@ -11,10 +13,10 @@ This fork is a heavily modified version for running enumeration:
   onesixtyone
   snmp walk
 
-scanner_nse.sh spawns off a bunch of NSE scanner scripts that may step all over each other, YMMV.
-shell_spawner.sh also uses msfvenom to spit out a number of common shells to your interface's IP.
+It also calls these two scripts:
+**scanner_nse.sh** spawns off a bunch of NSE scanner scripts that may step all over each other, YMMV.
+**shell_spawner.sh** uses msfvenom to spit out a number of common shells to your interface's IP.
 
-This is a quick/dity modification of the original lazymap. 
 Just the original initial nmap scans were kept, I fumbled through making this quickly, so use at your own risk!
 
 Known bugs:
