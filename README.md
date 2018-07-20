@@ -27,20 +27,20 @@
 
   <meta name="viewport" content="width=device-width">
   
-  <title>port-scan-automation/README.md at master · BUGLESPIDER/port-scan-automation</title>
+  <title>port-scan-automation/README.md at master · nccgroup/port-scan-automation</title>
     <meta name="description" content="Automate NMAP Scans and Generate Custom Nessus Policies Automatically">
     <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
   <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
   <meta property="fb:app_id" content="1401488693436528">
 
     
-    <meta property="og:image" content="https://avatars2.githubusercontent.com/u/27975320?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="BUGLESPIDER/port-scan-automation" /><meta property="og:url" content="https://github.com/BUGLESPIDER/port-scan-automation" /><meta property="og:description" content="port-scan-automation - Automate NMAP Scans and Generate Custom Nessus Policies Automatically" />
+    <meta property="og:image" content="https://avatars3.githubusercontent.com/u/4067082?s=400&amp;v=4" /><meta property="og:site_name" content="GitHub" /><meta property="og:type" content="object" /><meta property="og:title" content="nccgroup/port-scan-automation" /><meta property="og:url" content="https://github.com/nccgroup/port-scan-automation" /><meta property="og:description" content="port-scan-automation - Automate NMAP Scans and Generate Custom Nessus Policies Automatically" />
 
   <link rel="assets" href="https://assets-cdn.github.com/">
-  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6Mjk4NjE5NTM0OjAxZDI3Y2FkMWQ5NWE2NmM3ZWYxZjk1ZTM0OTNlOTI1Zjk4YjQwOWRkMjNlYmU1ZTUwMjQ5Y2JlYjg0OTg2ZDI=--1ee3a26941f055848ed5bbdf1c6d009f2f188493">
+  <link rel="web-socket" href="wss://live.github.com/_sockets/VjI6Mjk4NjE5NTM0OmRmMzE2ZWM2NWMyMDRmYWZiNjMwNTczOWFmZGU1NWZhNjRhOTBlMGQyZDg4ODdhYzUyMDJlYjMyMWQ0ODA3YTY=--08b9c6333234ac6c719fc7d749466ff7025b0637">
   <meta name="pjax-timeout" content="1000">
   <link rel="sudo-modal" href="/sessions/sudo_modal">
-  <meta name="request-id" content="B792:55CD:7345C9:DAF662:5B520974" data-pjax-transient>
+  <meta name="request-id" content="B7C4:55CE:961F42:112D9E1:5B520AB2" data-pjax-transient>
 
 
   
@@ -52,7 +52,7 @@
   <meta name="google-site-verification" content="GXs5KoUUkNCoaAZn7wPN-t01Pywp9M3sEjnt_3_ZWPc">
     <meta name="google-analytics" content="UA-3769691-2">
 
-<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="B792:55CD:7345C9:DAF662:5B520974" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="27975320" /><meta name="octolytics-actor-login" content="BUGLESPIDER" /><meta name="octolytics-actor-hash" content="21025f152da47f65e422472ac300402b6159e7edc09f87ac2dd4c8bcc3ccaffd" />
+<meta name="octolytics-host" content="collector.githubapp.com" /><meta name="octolytics-app-id" content="github" /><meta name="octolytics-event-url" content="https://collector.githubapp.com/github-external/browser_event" /><meta name="octolytics-dimension-request_id" content="B7C4:55CE:961F42:112D9E1:5B520AB2" /><meta name="octolytics-dimension-region_edge" content="iad" /><meta name="octolytics-dimension-region_render" content="iad" /><meta name="octolytics-actor-id" content="27975320" /><meta name="octolytics-actor-login" content="BUGLESPIDER" /><meta name="octolytics-actor-hash" content="21025f152da47f65e422472ac300402b6159e7edc09f87ac2dd4c8bcc3ccaffd" />
 <meta name="analytics-location" content="/&lt;user-name&gt;/&lt;repo-name&gt;/blob/show" data-pjax-transient="true" />
 
 
@@ -68,7 +68,7 @@
     <meta name="user-login" content="BUGLESPIDER">
 
       <meta name="expected-hostname" content="github.com">
-    <meta name="js-proxy-site-detection-payload" content="NDlkODczNTQ2YWI0ZGQwYzNjM2VlODY5NTgzNTBhOWZmMjI0MzMzMGE1M2U0MmRkYmY0YmIzMTMwY2Q3MTcyZnx7InJlbW90ZV9hZGRyZXNzIjoiMTczLjIzOS4yMTIuNiIsInJlcXVlc3RfaWQiOiJCNzkyOjU1Q0Q6NzM0NUM5OkRBRjY2Mjo1QjUyMDk3NCIsInRpbWVzdGFtcCI6MTUzMjEwMzAyOSwiaG9zdCI6ImdpdGh1Yi5jb20ifQ==">
+    <meta name="js-proxy-site-detection-payload" content="ZTJhZDE0MWMwNzFiYmIwYTc3NjQ5ZmY2ZDU1MGUzYTBhYjdkMGM4ODEyZmE2ODlmNjgwYjI1NTkzZGYwMTA1Ynx7InJlbW90ZV9hZGRyZXNzIjoiMTczLjIzOS4yMTIuNiIsInJlcXVlc3RfaWQiOiJCN0M0OjU1Q0U6OTYxRjQyOjExMkQ5RTE6NUI1MjBBQjIiLCJ0aW1lc3RhbXAiOjE1MzIxMDMzNTAsImhvc3QiOiJnaXRodWIuY29tIn0=">
 
     <meta name="enabled-features" content="UNIVERSE_BANNER,FREE_TRIALS,MARKETPLACE_INSIGHTS,MARKETPLACE_SEARCH,MARKETPLACE_INSIGHTS_CONVERSION_PERCENTAGES,SECURITY_CHECKUP">
 
@@ -77,14 +77,14 @@
   <meta http-equiv="x-pjax-version" content="beee275fd05ae7aab3be073a0d941133">
   
 
-      <link href="https://github.com/BUGLESPIDER/port-scan-automation/commits/master.atom" rel="alternate" title="Recent Commits to port-scan-automation:master" type="application/atom+xml">
+      <link href="https://github.com/nccgroup/port-scan-automation/commits/master.atom" rel="alternate" title="Recent Commits to port-scan-automation:master" type="application/atom+xml">
 
-  <meta name="go-import" content="github.com/BUGLESPIDER/port-scan-automation git https://github.com/BUGLESPIDER/port-scan-automation.git">
+  <meta name="go-import" content="github.com/nccgroup/port-scan-automation git https://github.com/nccgroup/port-scan-automation.git">
 
-  <meta name="octolytics-dimension-user_id" content="27975320" /><meta name="octolytics-dimension-user_login" content="BUGLESPIDER" /><meta name="octolytics-dimension-repository_id" content="141730316" /><meta name="octolytics-dimension-repository_nwo" content="BUGLESPIDER/port-scan-automation" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="true" /><meta name="octolytics-dimension-repository_parent_id" content="9967143" /><meta name="octolytics-dimension-repository_parent_nwo" content="nccgroup/port-scan-automation" /><meta name="octolytics-dimension-repository_network_root_id" content="9967143" /><meta name="octolytics-dimension-repository_network_root_nwo" content="nccgroup/port-scan-automation" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="true" />
+  <meta name="octolytics-dimension-user_id" content="4067082" /><meta name="octolytics-dimension-user_login" content="nccgroup" /><meta name="octolytics-dimension-repository_id" content="9967143" /><meta name="octolytics-dimension-repository_nwo" content="nccgroup/port-scan-automation" /><meta name="octolytics-dimension-repository_public" content="true" /><meta name="octolytics-dimension-repository_is_fork" content="false" /><meta name="octolytics-dimension-repository_network_root_id" content="9967143" /><meta name="octolytics-dimension-repository_network_root_nwo" content="nccgroup/port-scan-automation" /><meta name="octolytics-dimension-repository_explore_github_marketplace_ci_cta_shown" content="false" />
 
 
-    <link rel="canonical" href="https://github.com/BUGLESPIDER/port-scan-automation/blob/master/README.md" data-pjax-transient>
+    <link rel="canonical" href="https://github.com/nccgroup/port-scan-automation/blob/master/README.md" data-pjax-transient>
 
 
   <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
@@ -139,7 +139,7 @@
   aria-expanded="true"
 >
   <div class="position-relative">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scope-type="Repository" data-scope-id="141730316" data-scoped-search-url="/BUGLESPIDER/port-scan-automation/search" data-unscoped-search-url="/search" action="/BUGLESPIDER/port-scan-automation/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-site-search-form" data-scope-type="Repository" data-scope-id="9967143" data-scoped-search-url="/nccgroup/port-scan-automation/search" data-unscoped-search-url="/search" action="/nccgroup/port-scan-automation/search" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
       <label class="form-control header-search-wrapper header-search-wrapper-jump-to position-relative d-flex flex-justify-between flex-items-center js-chromeless-input-container">
         <input type="text"
           class="form-control header-search-input jump-to-field js-jump-to-field js-site-search-focus js-site-search-field is-clearable"
@@ -152,7 +152,7 @@
           autocapitalize="off"
           aria-autocomplete="list"
           aria-controls="jump-to-results"
-          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=HJ1bUMu0DiXUxaZUoMWgtXP/WRUtnzns6L6TArMVuP75mIOA8+kFGwjqypKwjNSMxrdaR+9U1/fn1TkYUZNx3g=="
+          data-jump-to-suggestions-path="/_graphql/GetSuggestedNavigationDestinations#csrf-token=I9eflg8eM+Uugaj7FS8orLC+HaeXSFi1wWNHBDW+PEPG0kdGN0M42/KuxD0FZlyVBfYe9VWDtq7OCO0e1zj1Yw=="
           spellcheck="false"
           autocomplete="off"
           >
@@ -267,6 +267,13 @@
   </a>
 
 
+  <div class="dropdown-divider"></div>
+  <div class="dropdown-header">
+    <span title="nccgroup/port-scan-automation">This repository</span>
+  </div>
+    <a role="menuitem" class="dropdown-item" href="/nccgroup/port-scan-automation/issues/new" data-ga-click="Header, create new issue">
+      New issue
+    </a>
 
       </details-menu>
     </details>
@@ -294,7 +301,7 @@
           <li><a role="menuitem" class="dropdown-item" href="https://help.github.com" data-ga-click="Header, go to help, text:help">Help</a></li>
           <li><a role="menuitem" class="dropdown-item" href="/settings/profile" data-ga-click="Header, go to settings, icon:settings">Settings</a></li>
           <li>
-            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="CcU5OrGCU2S8DYeSR347ioRWc/mrrc+t0jEjyThZsIXH+dwHaBuxvtJuw8vmkS5ohoNsb3ADx9I8s2N7YJ3z+w==" />
+            <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="logout-form" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="58mjVXrLw3tFMfIRb1Rke0i4Vo+YlSJeahgQfpcihGYp9UZoo1IhoStStkjOu3GZSm1JGUM7KiGEmlDMz+bHGA==" />
               <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout" role="menuitem">
                 Sign out
               </button>
@@ -307,7 +314,7 @@
 
 
 
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="99I5vc0LrmXBrmsYfSBl7lSeckUvpu+14PnIO3N5J/857tyAFJJMv6/NL0Hcz3AMVktt0/QI58oOe4iJK71kgQ==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="sr-only right-0" action="/logout" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="pn7bNxXBUrdCl2dX6m4yFmEt1sLZdRXuYk5p8ma5gENoQj4KzFiwbSz0Iw5LgSf0Y/jJVALbHZGMzClAPn3DPQ==" />
           <button type="submit" class="dropdown-item dropdown-signout" data-ga-click="Header, sign out, icon:logout">
             Sign out
           </button>
@@ -336,6 +343,8 @@
 
 
 
+  
+
 
 
   <div class="pagehead repohead instapaper_ignore readability-menu experiment-repo-nav  ">
@@ -343,10 +352,10 @@
 
       <ul class="pagehead-actions">
   <li>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="C/rxV4qyxvS5iHUarap6OTrcnRbKO0A2RZzBvAHv2NDgWNJzizrmjqcgINn0TA7qvjAXXq36eIaJiXeph3OtjA==" />      <input type="hidden" name="repository_id" id="repository_id" value="141730316" class="form-control" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form data-autosubmit="true" data-remote="true" class="js-social-container" action="/notifications/subscribe" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="y1DnahMgC3Cbv17sdvMyoNRXzqwc3pQXJjuS2bGTWSEg8sROEqgrCoUXCy8vFUZzULtE5HsfrKfqLiTMNw8sfQ==" />      <input type="hidden" name="repository_id" id="repository_id" value="9967143" class="form-control" />
 
         <div class="select-menu js-menu-container js-select-menu">
-          <a href="/BUGLESPIDER/port-scan-automation/subscription"
+          <a href="/nccgroup/port-scan-automation/subscription"
             class="btn btn-sm btn-with-count select-menu-button js-menu-target"
             role="button"
             aria-haspopup="true"
@@ -359,9 +368,9 @@
             </span>
           </a>
           <a class="social-count js-social-count"
-            href="/BUGLESPIDER/port-scan-automation/watchers"
-            aria-label="0 users are watching this repository">
-            0
+            href="/nccgroup/port-scan-automation/watchers"
+            aria-label="27 users are watching this repository">
+            27
           </a>
 
         <div class="select-menu-modal-holder">
@@ -423,45 +432,52 @@
   <li>
     
   <div class="js-toggler-container js-social-container starring-container ">
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/BUGLESPIDER/port-scan-automation/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="N1gw3a/yTTAkNTOmQcvSjUwFAABuYttu4+oWXVOhFnG8dVUJlhrCEw2Nd2AoNHNt65ijFz2puYhaAP4GYSy9JA==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="starred js-social-form" action="/nccgroup/port-scan-automation/unstar" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="M0VquEnz5nOokvelwhb8Dvcx+hGs9SlQea0J1jXH49rmSS740gvCjWguofMHtMcAJXke3L93bQluJpEqWYCIuA==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
         class="btn btn-sm btn-with-count js-toggler-target"
-        aria-label="Unstar this repository" title="Unstar BUGLESPIDER/port-scan-automation"
+        aria-label="Unstar this repository" title="Unstar nccgroup/port-scan-automation"
         data-ga-click="Repository, click unstar button, action:blob#show; text:Unstar">
         <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Unstar
       </button>
-        <a class="social-count js-social-count" href="/BUGLESPIDER/port-scan-automation/stargazers"
-           aria-label="0 users starred this repository">
-          0
+        <a class="social-count js-social-count" href="/nccgroup/port-scan-automation/stargazers"
+           aria-label="79 users starred this repository">
+          79
         </a>
 </form>
-    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/BUGLESPIDER/port-scan-automation/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="szh+sPDdAz1L6UQCp3No4NUAdLItzmDXZyMmyN8q/DQU6DyjzG1KTMa+BmRx86VtYWW4TgvYNkwECJL5LNpeug==" />
+    <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="unstarred js-social-form" action="/nccgroup/port-scan-automation/star" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="p5blqetYZxzQDPWooMETAxqDfxEaBPxnHEXbFxcVisDxEUAsNOS8GQR8hxGlKgGbRb7VbmyX2L4RTiInH4Q5ow==" />
       <input type="hidden" name="context" value="repository"></input>
       <button
         type="submit"
         class="btn btn-sm btn-with-count js-toggler-target"
-        aria-label="Star this repository" title="Star BUGLESPIDER/port-scan-automation"
+        aria-label="Star this repository" title="Star nccgroup/port-scan-automation"
         data-ga-click="Repository, click star button, action:blob#show; text:Star">
         <svg class="octicon octicon-star" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"/></svg>
         Star
       </button>
-        <a class="social-count js-social-count" href="/BUGLESPIDER/port-scan-automation/stargazers"
-           aria-label="0 users starred this repository">
-          0
+        <a class="social-count js-social-count" href="/nccgroup/port-scan-automation/stargazers"
+           aria-label="79 users starred this repository">
+          79
         </a>
 </form>  </div>
 
   </li>
 
   <li>
-        <span class="btn btn-sm btn-with-count disabled tooltipped tooltipped-sw" aria-label="Cannot fork because you own this repository and are not a member of any organizations.">
-          <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
-          Fork
-</span>
-    <a href="/BUGLESPIDER/port-scan-automation/network/members" class="social-count"
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="btn-with-count" action="/nccgroup/port-scan-automation/fork" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="OEDLK8UOb7LcMk9c++sdPfRVIgYEQLrBZrCTstIGLtj/axnXhGRffCXeyanWPmL80ysnVpVY0g8ITYFacy1diw==" />
+            <button
+                type="submit"
+                class="btn btn-sm btn-with-count"
+                data-ga-click="Repository, show fork modal, action:blob#show; text:Fork"
+                title="Fork your own copy of nccgroup/port-scan-automation to your account"
+                aria-label="Fork your own copy of nccgroup/port-scan-automation to your account">
+              <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
+              Fork
+            </button>
+</form>
+    <a href="/nccgroup/port-scan-automation/network/members" class="social-count"
        aria-label="86 users forked this repository">
       86
     </a>
@@ -469,14 +485,11 @@
 </ul>
 
       <h1 class="public ">
-  <svg class="octicon octicon-repo-forked" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M8 1a1.993 1.993 0 0 0-1 3.72V6L5 8 3 6V4.72A1.993 1.993 0 0 0 2 1a1.993 1.993 0 0 0-1 3.72V6.5l3 3v1.78A1.993 1.993 0 0 0 5 15a1.993 1.993 0 0 0 1-3.72V9.5l3-3V4.72A1.993 1.993 0 0 0 8 1zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3 10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm3-10c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
-  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/BUGLESPIDER">BUGLESPIDER</a></span><!--
+  <svg class="octicon octicon-repo" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9H3V8h1v1zm0-3H3v1h1V6zm0-2H3v1h1V4zm0-2H3v1h1V2zm8-1v12c0 .55-.45 1-1 1H6v2l-1.5-1.5L3 16v-2H1c-.55 0-1-.45-1-1V1c0-.55.45-1 1-1h10c.55 0 1 .45 1 1zm-1 10H1v2h2v-1h3v1h5v-2zm0-10H2v9h9V1z"/></svg>
+  <span class="author" itemprop="author"><a class="url fn" rel="author" href="/nccgroup">nccgroup</a></span><!--
 --><span class="path-divider">/</span><!--
---><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/BUGLESPIDER/port-scan-automation">port-scan-automation</a></strong>
+--><strong itemprop="name"><a data-pjax="#js-repo-pjax-container" href="/nccgroup/port-scan-automation">port-scan-automation</a></strong>
 
-    <span class="fork-flag">
-      <span class="text">forked from <a href="/nccgroup/port-scan-automation">nccgroup/port-scan-automation</a></span>
-    </span>
 </h1>
 
     </div>
@@ -488,39 +501,43 @@
      data-pjax="#js-repo-pjax-container">
 
   <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /BUGLESPIDER/port-scan-automation" href="/BUGLESPIDER/port-scan-automation">
+    <a class="js-selected-navigation-item selected reponav-item" itemprop="url" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches repo_packages /nccgroup/port-scan-automation" href="/nccgroup/port-scan-automation">
       <svg class="octicon octicon-code" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M9.5 3L8 4.5 11.5 8 8 11.5 9.5 13 14 8 9.5 3zm-5 0L0 8l4.5 5L6 11.5 2.5 8 6 4.5 4.5 3z"/></svg>
       <span itemprop="name">Code</span>
       <meta itemprop="position" content="1">
 </a>  </span>
 
+    <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
+      <a itemprop="url" data-hotkey="g i" class="js-selected-navigation-item reponav-item" data-selected-links="repo_issues repo_labels repo_milestones /nccgroup/port-scan-automation/issues" href="/nccgroup/port-scan-automation/issues">
+        <svg class="octicon octicon-issue-opened" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"/></svg>
+        <span itemprop="name">Issues</span>
+        <span class="Counter">0</span>
+        <meta itemprop="position" content="2">
+</a>    </span>
 
   <span itemscope itemtype="http://schema.org/ListItem" itemprop="itemListElement">
-    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /BUGLESPIDER/port-scan-automation/pulls" href="/BUGLESPIDER/port-scan-automation/pulls">
+    <a data-hotkey="g p" itemprop="url" class="js-selected-navigation-item reponav-item" data-selected-links="repo_pulls checks /nccgroup/port-scan-automation/pulls" href="/nccgroup/port-scan-automation/pulls">
       <svg class="octicon octicon-git-pull-request" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
       <span itemprop="name">Pull requests</span>
-      <span class="Counter">0</span>
+      <span class="Counter">2</span>
       <meta itemprop="position" content="3">
 </a>  </span>
 
-    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /BUGLESPIDER/port-scan-automation/projects" href="/BUGLESPIDER/port-scan-automation/projects">
+    <a data-hotkey="g b" class="js-selected-navigation-item reponav-item" data-selected-links="repo_projects new_repo_project repo_project /nccgroup/port-scan-automation/projects" href="/nccgroup/port-scan-automation/projects">
       <svg class="octicon octicon-project" viewBox="0 0 15 16" version="1.1" width="15" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 12h3V2h-3v10zm-4-2h3V2H6v8zm-4 4h3V2H2v12zm-1 1h13V1H1v14zM14 0H1a1 1 0 0 0-1 1v14a1 1 0 0 0 1 1h13a1 1 0 0 0 1-1V1a1 1 0 0 0-1-1z"/></svg>
       Projects
       <span class="Counter" >0</span>
 </a>
-    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /BUGLESPIDER/port-scan-automation/wiki" href="/BUGLESPIDER/port-scan-automation/wiki">
+    <a class="js-selected-navigation-item reponav-item" data-hotkey="g w" data-selected-links="repo_wiki /nccgroup/port-scan-automation/wiki" href="/nccgroup/port-scan-automation/wiki">
       <svg class="octicon octicon-book" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M3 5h4v1H3V5zm0 3h4V7H3v1zm0 2h4V9H3v1zm11-5h-4v1h4V5zm0 2h-4v1h4V7zm0 2h-4v1h4V9zm2-6v9c0 .55-.45 1-1 1H9.5l-1 1-1-1H2c-.55 0-1-.45-1-1V3c0-.55.45-1 1-1h5.5l1 1 1-1H15c.55 0 1 .45 1 1zm-8 .5L7.5 3H2v9h6V3.5zm7-.5H9.5l-.5.5V12h6V3z"/></svg>
       Wiki
 </a>
 
-  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /BUGLESPIDER/port-scan-automation/pulse" href="/BUGLESPIDER/port-scan-automation/pulse">
+  <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_graphs repo_contributors dependency_graph pulse /nccgroup/port-scan-automation/pulse" href="/nccgroup/port-scan-automation/pulse">
     <svg class="octicon octicon-graph" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M16 14v1H0V0h1v14h15zM5 13H3V8h2v5zm4 0H7V3h2v10zm4 0h-2V6h2v7z"/></svg>
     Insights
 </a>
-    <a class="js-selected-navigation-item reponav-item" data-selected-links="repo_settings repo_branch_settings hooks integration_installations repo_keys_settings issue_template_editor /BUGLESPIDER/port-scan-automation/settings" href="/BUGLESPIDER/port-scan-automation/settings">
-      <svg class="octicon octicon-gear" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M14 8.77v-1.6l-1.94-.64-.45-1.09.88-1.84-1.13-1.13-1.81.91-1.09-.45-.69-1.92h-1.6l-.63 1.94-1.11.45-1.84-.88-1.13 1.13.91 1.81-.45 1.09L0 7.23v1.59l1.94.64.45 1.09-.88 1.84 1.13 1.13 1.81-.91 1.09.45.69 1.92h1.59l.63-1.94 1.11-.45 1.84.88 1.13-1.13-.92-1.81.47-1.09L14 8.75v.02zM7 11c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z"/></svg>
-      Settings
-</a>
+
 </nav>
 
 
@@ -530,9 +547,9 @@
   <div class="repository-content ">
 
     
-  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/BUGLESPIDER/port-scan-automation/blob/64c3288392eb449f608904f163f1d6cea3364c3c/README.md">Permalink</a>
+  <a class="d-none js-permalink-shortcut" data-hotkey="y" href="/nccgroup/port-scan-automation/blob/e2a24d39c60301f6026d17e9571c708733fcdacc/README.md">Permalink</a>
 
-  <!-- blob contrib key: blob_contributors:v21:87af78c376b0296cdbe21cbcd04de590 -->
+  <!-- blob contrib key: blob_contributors:v21:987e3847318f320e3d1f301d0a3776ec -->
 
   
 
@@ -556,12 +573,12 @@
 
       <div class="select-menu-filters">
         <div class="select-menu-text-filter">
-          <input type="text" aria-label="Find or create a branch…" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Find or create a branch…">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="form-control js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
         </div>
         <div class="select-menu-tabs">
           <ul>
             <li class="select-menu-tab">
-              <a href="#" data-tab-filter="branches" data-filter-placeholder="Find or create a branch…" class="js-select-menu-tab" role="tab">Branches</a>
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
             </li>
             <li class="select-menu-tab">
               <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
@@ -576,7 +593,7 @@
 
 
             <a class="select-menu-item js-navigation-item js-navigation-open selected"
-               href="/BUGLESPIDER/port-scan-automation/blob/master/README.md"
+               href="/nccgroup/port-scan-automation/blob/master/README.md"
                data-name="master"
                data-skip-pjax="true"
                rel="nofollow">
@@ -587,16 +604,7 @@
             </a>
         </div>
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="js-create-branch select-menu-item select-menu-new-item-form js-navigation-item js-new-item-form" action="/BUGLESPIDER/port-scan-automation/branches" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="/qw5j3j4fObszF2HI5hCYAqeWgaqqIBRp6N5TL1BVTw1ONZiBSM6s7yjPX0Ck/PMrZDbE7C0jU0TP+JjwiUlCA==" />
-          <svg class="octicon octicon-git-branch select-menu-item-icon" viewBox="0 0 10 16" version="1.1" width="10" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M10 5c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v.3c-.02.52-.23.98-.63 1.38-.4.4-.86.61-1.38.63-.83.02-1.48.16-2 .45V4.72a1.993 1.993 0 0 0-1-3.72C.88 1 0 1.89 0 3a2 2 0 0 0 1 1.72v6.56c-.59.35-1 .99-1 1.72 0 1.11.89 2 2 2 1.11 0 2-.89 2-2 0-.53-.2-1-.53-1.36.09-.06.48-.41.59-.47.25-.11.56-.17.94-.17 1.05-.05 1.95-.45 2.75-1.25S8.95 7.77 9 6.73h-.02C9.59 6.37 10 5.73 10 5zM2 1.8c.66 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2C1.35 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2zm0 12.41c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zm6-8c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z"/></svg>
-            <div class="select-menu-item-text">
-              <span class="select-menu-item-heading">Create branch: <span class="js-new-item-name"></span></span>
-              <span class="description">from ‘master’</span>
-            </div>
-            <input type="hidden" name="name" id="name" class="js-new-item-value">
-            <input type="hidden" name="branch" id="branch" value="master">
-            <input type="hidden" name="path" id="path" value="README.md">
-</form>
+          <div class="select-menu-no-results">Nothing to show</div>
       </div>
 
       <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
@@ -613,7 +621,7 @@
 </div>
 
     <div class="BtnGroup float-right">
-      <a href="/BUGLESPIDER/port-scan-automation/find/master"
+      <a href="/nccgroup/port-scan-automation/find/master"
             class="js-pjax-capture-input btn btn-sm BtnGroup-item"
             data-pjax
             data-hotkey="t">
@@ -624,7 +632,7 @@
       </clipboard-copy>
     </div>
     <div id="blob-path" class="breadcrumb">
-      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/BUGLESPIDER/port-scan-automation"><span>port-scan-automation</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
+      <span class="repo-root js-repo-root"><span class="js-path-segment"><a data-pjax="true" href="/nccgroup/port-scan-automation"><span>port-scan-automation</span></a></span></span><span class="separator">/</span><strong class="final-path">README.md</strong>
     </div>
   </div>
 
@@ -632,7 +640,7 @@
   
   <div class="commit-tease">
       <span class="float-right">
-        <a class="commit-tease-sha" href="/BUGLESPIDER/port-scan-automation/commit/e2a24d39c60301f6026d17e9571c708733fcdacc" data-pjax>
+        <a class="commit-tease-sha" href="/nccgroup/port-scan-automation/commit/e2a24d39c60301f6026d17e9571c708733fcdacc" data-pjax>
           e2a24d3
         </a>
         <relative-time datetime="2013-05-30T13:35:43Z">May 30, 2013</relative-time>
@@ -640,7 +648,7 @@
       <div>
         <img class="avatar" width="20" height="20" alt="" src="https://camo.githubusercontent.com/7b235c82d039d9e1d42b49a596e8d0561969f4df/68747470733a2f2f302e67726176617461722e636f6d2f6176617461722f30303836346636643162396361393938643965636466376265376435383366323f643d68747470732533412532462532466173736574732d63646e2e6769746875622e636f6d253246696d6167657325324667726176617461727325324667726176617461722d757365722d3432302e706e6726723d6726733d313430" data-canonical-src="https://0.gravatar.com/avatar/00864f6d1b9ca998d9ecdf7be7d583f2?d=https%3A%2F%2Fassets-cdn.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png&amp;r=g&amp;s=140" />
         <span class="user-mention">Commonexploits</span>
-          <a data-pjax="true" title="no message" class="message" href="/BUGLESPIDER/port-scan-automation/commit/e2a24d39c60301f6026d17e9571c708733fcdacc">no message</a>
+          <a data-pjax="true" title="no message" class="message" href="/nccgroup/port-scan-automation/commit/e2a24d39c60301f6026d17e9571c708733fcdacc">no message</a>
       </div>
 
     <div class="commit-tease-contributors">
@@ -674,21 +682,21 @@
   <div class="file-actions">
 
     <div class="BtnGroup">
-      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/BUGLESPIDER/port-scan-automation/raw/master/README.md">Raw</a>
-        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/BUGLESPIDER/port-scan-automation/blame/master/README.md">Blame</a>
-      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/BUGLESPIDER/port-scan-automation/commits/master/README.md">History</a>
+      <a id="raw-url" class="btn btn-sm BtnGroup-item" href="/nccgroup/port-scan-automation/raw/master/README.md">Raw</a>
+        <a class="btn btn-sm js-update-url-with-hash BtnGroup-item" data-hotkey="b" href="/nccgroup/port-scan-automation/blame/master/README.md">Blame</a>
+      <a rel="nofollow" class="btn btn-sm BtnGroup-item" href="/nccgroup/port-scan-automation/commits/master/README.md">History</a>
     </div>
 
 
-          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/BUGLESPIDER/port-scan-automation/edit/master/README.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="xznnExpE2JBr9Re8zxGxB3vJl4gd59i13bcC4CseFRyX3tILEjabw2Ga+o8ESsvgChBsY3ptN2tdtCsJyYrhcw==" />
+          <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form js-update-url-with-hash" action="/nccgroup/port-scan-automation/edit/master/README.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="RK3ABXCycRQLgE8IijQPTw+BiUND69E8BW/TH6lX3V53KMoOUREyQDP93m5pEkHYv7lla9AzKSN+duJEIEYQZQ==" />
             <button class="btn-octicon tooltipped tooltipped-nw" type="submit"
-              aria-label="Edit this file" data-hotkey="e" data-disable-with>
+              aria-label="Edit the file in your fork of this project" data-hotkey="e" data-disable-with>
               <svg class="octicon octicon-pencil" viewBox="0 0 14 16" version="1.1" width="14" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M0 12v3h3l8-8-3-3-8 8zm3 2H1v-2h1v1h1v1zm10.3-9.3L12 6 9 3l1.3-1.3a.996.996 0 0 1 1.41 0l1.59 1.59c.39.39.39 1.02 0 1.41z"/></svg>
             </button>
 </form>
-        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/BUGLESPIDER/port-scan-automation/delete/master/README.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="yq5QU+tCGb9ItXYQzWQVureLUAOrxYJuw6dcGIAphEl2XlJpcoiTw389PnrvEL9ZdHw18d48CszEDhee9DSDng==" />
+        <!-- '"` --><!-- </textarea></xmp> --></option></form><form class="inline-form" action="/nccgroup/port-scan-automation/delete/master/README.md" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="2s6Ea/RTKpKiMQ2Cnne+EorRhp2LHKv7iQbs9Hzzv+5fGGENjN48OwQc9Pfr0AxFCpCPE8n9BoD1sLyklDPwCA==" />
           <button class="btn-octicon btn-octicon-danger tooltipped tooltipped-nw" type="submit"
-            aria-label="Delete this file" data-disable-with>
+            aria-label="Delete the file in your fork of this project" data-disable-with>
             <svg class="octicon octicon-trashcan" viewBox="0 0 12 16" version="1.1" width="12" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M11 2H9c0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1H2c-.55 0-1 .45-1 1v1c0 .55.45 1 1 1v9c0 .55.45 1 1 1h7c.55 0 1-.45 1-1V5c.55 0 1-.45 1-1V3c0-.55-.45-1-1-1zm-1 12H3V5h1v8h1V5h1v8h1V5h1v8h1V5h1v9zm1-10H2V3h9v1z"/></svg>
           </button>
 </form>  </div>
@@ -702,7 +710,30 @@
 
     
   <div id="readme" class="readme blob instapaper_body">
-    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-lazymap---auto-nmap-scanning-script" class="anchor" aria-hidden="true" href="#lazymap---auto-nmap-scanning-script"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg>LazyMap - Auto NMAP Scanning Script</h1>
+    <article class="markdown-body entry-content" itemprop="text"><h1><a id="user-content-lazymap---auto-nmap-scanning-script" class="anchor" aria-hidden="true" href="#lazymap---auto-nmap-scanning-script"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>LazyMap - Auto NMAP Scanning Script</h1>
+<p>WARNING: Significant divergence from original LazyMap, please read the lazymap.sh preamble and script very carefully:</p>
+<p>This fork is a heavily modified version for running enumeration:
+  nmap
+  nmap NSEs
+  nikto
+  enum4linux
+  onesixtyone
+  snmp walk
+
+scanner_nse.sh spawns off a bunch of NSE scanner scripts that may step all over each other, YMMV.
+shell_spawner.sh also uses msfvenom to spit out a number of common shells to your interface's IP.
+
+This is a quick/dity modification of the original lazymap. 
+Just the original initial nmap scans were kept, I fumbled through making this quickly, so use at your own risk!
+
+Known bugs:
+ -I broke the file input feature and haven't gotten around to fixing it. Currently it only scans a subnet or individual IP addresses. For my use case, I just pop open a bunch of terminator windows and run multiple instances.
+ -No error handling, if a scan finds nothing it just keeps going.
+ -Sloppy nikto handling, just scans from an nmap output pipe of these ports: 80,8000,8080,8081,8888,443,4443
+
+Per the limitations and license, be sure to read what this thing does and use at your own risk.
+
+</p>
 <p>Automate NMAP scans and custom Nessus polices.</p>
 <p>Released as open source by NCC Group Plc - <a href="http://www.nccgroup.com/" rel="nofollow">http://www.nccgroup.com/</a></p>
 <p>Developed by Daniel Compton, daniel dot compton at nccgroup dot com</p>
@@ -790,7 +821,7 @@
 <div class="footer container-lg px-3" role="contentinfo">
   <div class="position-relative d-flex flex-justify-between pt-6 pb-2 mt-6 f6 text-gray border-top border-gray-light ">
     <ul class="list-style-none d-flex flex-wrap ">
-      <li class="mr-3">&copy; 2018 <span title="0.23792s from unicorn-7d798cfb78-m87fg">GitHub</span>, Inc.</li>
+      <li class="mr-3">&copy; 2018 <span title="0.31911s from unicorn-79cbcbf5cc-4vzdd">GitHub</span>, Inc.</li>
         <li class="mr-3"><a data-ga-click="Footer, go to terms, text:terms" href="https://github.com/site/terms">Terms</a></li>
         <li class="mr-3"><a data-ga-click="Footer, go to privacy, text:privacy" href="https://github.com/site/privacy">Privacy</a></li>
         <li class="mr-3"><a href="https://help.github.com/articles/github-security/" data-ga-click="Footer, go to security, text:security">Security</a></li>
